@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Documents sécurisés</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h2>Documents protégés</h2>
+  <div id="login-box">
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Valider</button>
+    <p id="error" class="erreur"></p>
+  </div>
+  <div id="documents" style="display:none;">
+    <ul>
+      <li><a href="documents/cours-math.pdf" target="_blank">Cours de mathématiques</a></li>
+      <li><a href="documents/exercices-physique.pdf" target="_blank">Exercices de physique</a></li>
+    </ul>
+  </div>
+  <a href="index.html">← Retour</a>
+</body>
+</html>
